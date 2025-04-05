@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Amandeep Singh Matta <am759831@dal.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.12"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+sqlalchemy = "^2.0.40"
+asyncpg = "^0.30.0"
+alembic = "^1.15.2"
+python-jose = "^3.4.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-dotenv = "^1.1.0"
+requests = "^2.32.3"
+pydantic-settings = "^2.8.1"
+greenlet = "^3.1.1"
+pydantic = {extras = ["email"], version = "^2.11.2"}
+httpx = "^0.28.1"
+authlib = "^1.5.2"
+itsdangerous = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
